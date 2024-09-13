@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
-import C from './swap/c';
+import C from './c';
 
 export const metadata: Metadata = {
-  title: 'Swap | CICI Swap',
+  title: 'Positions | CICI Swap',
 }
 
 export default C;
