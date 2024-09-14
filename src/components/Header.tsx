@@ -9,7 +9,7 @@ import { usePathname } from 'next/navigation';
 const Header = () => {
   const pathname = usePathname()
   return (
-    <div className="z-20 w-[80%] h-16 bg-amber-300 px-3 fixed top-4 left-1/2 -translate-x-1/2 rounded-full border-2 border-gray-500 flex justify-between items-center">
+    <div className="z-20 w-4/5 h-16 bg-amber-300 px-3 fixed top-4 left-1/2 -translate-x-1/2 rounded-full border-2 border-gray-500 flex justify-between items-center">
       <div className="flex items-center">
         <div className="w-12 h-12 rounded-full bg-white mr-4"></div>
         <div>CICI Swap</div>
